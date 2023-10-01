@@ -2,6 +2,8 @@ package org.cristianc.app.jardin;
 
 import org.cristianc.app.hogar.Persona;
 
+import static org.cristianc.app.hogar.Persona.saludar;
+
 public class EjemploPaquetes {
     public static void main(String[] args) {
 
@@ -16,6 +18,8 @@ public class EjemploPaquetes {
 
         String jugando = perro.jugar(p);
         System.out.println("jugando = " + jugando);
+        String saludo = saludar();
+        System.out.println("saludo = " + saludo);
 
     }
 }

@@ -24,4 +24,8 @@ public class Persona {
     public String lanzarPelota(){
         return "lanza la pelota al perro!";
     }
+
+    public static String saludar(){
+        return "Hola, que tal!";
+    }
 }
